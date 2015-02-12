@@ -1,15 +1,24 @@
-<!DOCTYPE html>
+<DOCTYPE! html>
 <html>
 	<head>
-		<script src="something.js"></script>
+		<script src="something2.js"></script>
 	</head>
 	<body>
-		SELECT YOUR CHARACTER
+		ENTER A NUMBER
 		<br>
-		GAME (choose 0-1):<input type="text" id="num1">
+		<input type="text" id="num"></input>
 		<br>
-		CHARACTER (choose 0-3): <input type="text" id="num2">
+		<button id="boom" onclick="threeDoors()">DID YOU GUESS IT RIGHT</button>
 		<br>
-		<button id="boom" onclick="youChose()">CHOOSE YOUR DESTINY</button>
+		<br>
+		SELECT A GAME (0-2)
+		<br>
+		<input type="text" id="vg"></input>
+		<br>
+		SELECT YOUR CHARACTER (0-3)
+		<br>
+		<input type="text" id="fighter"></input>
+		<br>
+		<button id="SELECT" onclick="selectChar()">CHOOSE YOUR CHARACTER</button>
 	</body>
 </html>
